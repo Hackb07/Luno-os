@@ -194,18 +194,17 @@ This setup requires:
 ---
 
 ## 🧠 System Overview
-
-| Component        | Application                                    |
-| ---------------- | ---------------------------------------------- |
-| **OS**           | [Luno OS](https://github.com/luno-os)          |
-| **WM**           | [Hyprland](https://github.com/hyprwm/Hyprland) |
-| **Terminal**     | [Kitty](https://github.com/kovidgoyal/kitty)   |
-| **Shell**        | [zsh](https://github.com/zsh-users/zsh)        |
-| **Music Player** | [ncspot](https://github.com/hrkfdn/ncspot)     |
-| **Bar/Widgets**  | [eww](https://github.com/elkowar/eww)          |
-| **Launcher**     | [Rofi](https://github.com/davatorium/rofi)     |
-| **Editor**       | [Neovim](https://github.com/neovim/neovim)     |
-| **File Manager** | [Yazi](https://github.com/sxyazi/yazi)         |
+| Component        | Application                                                      |
+| ---------------- | ---------------------------------------------------------------- |
+| **OS**           | [Luno OS and Any Other Linux Distro](https://github.com/luno-os) |
+| **WM**           | [Hyprland](https://github.com/hyprwm/Hyprland)                   |
+| **Terminal**     | [Kitty](https://github.com/kovidgoyal/kitty)                     |
+| **Shell**        | [zsh](https://github.com/zsh-users/zsh)                          |
+| **Music Player** | [ncspot](https://github.com/hrkfdn/ncspot)                       |
+| **Bar/Widgets**  | [eww](https://github.com/elkowar/eww)                            |
+| **Launcher**     | [Rofi](https://github.com/davatorium/rofi)                       |
+| **Editor**       | [Neovim](https://github.com/neovim/neovim)                       |
+| **File Manager** | [Yazi](https://github.com/sxyazi/yazi)                           |
 
 Color theming dynamically adapts via **Pywal**, generating cohesive palettes based on your wallpaper.
 
