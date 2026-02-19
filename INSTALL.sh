@@ -6,7 +6,7 @@ sudo pacman -S --noconfirm github-cli stow pamixer brightnessctl playerctl ncspo
 
 # Backup Existing Config
 CONFIG_DIR="$HOME/.config"
-DOTFILES_CONFIG="$HOME/zenities/.config"
+DOTFILES_CONFIG="$HOME/LunoOS/.config"
 BACKUP_SUFFIX=".bak"
 
 echo "Backing up configuration directories in $CONFIG_DIR based on dotfiles in $DOTFILES_CONFIG"
@@ -37,7 +37,7 @@ for file in "${FILES[@]}"; do
 done
 
 echo "Applying dotfiles with stow"
-cd "$HOME/zenities" || { echo "Could not access $HOME/zenities"; exit 1; }
+cd "$HOME/LunoOS" || { echo "Could not access $HOME/LunoOS"; exit 1; }
 stow .
 
 # Go back to home directory
